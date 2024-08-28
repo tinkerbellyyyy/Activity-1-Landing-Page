@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5dd663;
+        }
+        
+        nav {
+            background-color:   #239406fa;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav li {
+            margin-right: 20px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            color: #ccc;
+        }
+        
+        #hero {
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        #hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        #hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        #hero button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        
+        #hero button:hover {
+            background-color: #555;
+        }
+        
+        #about {
+            padding: 2em;
+            background-color: #5dd663; 
+        }
+        
+        .about-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        #about h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .features-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 2em;
+        }
+
+        .feature {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 0 300px;
+            text-align: center;
+        }
+
+        .feature i {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .cta {
+            background-color:  #5dd663;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .cta form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta label {
+            margin-bottom: 10px;
+        }
+
+        .cta input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 200px;
+        }
+
+        .cta button[type="submit"] {
+            background-color:  #2e4b0d;
+            color: #ffffff;
+            padding: 10px 20px; 
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta button[type="submit"]:hover {
+            background-color: #64c20cd0;
+        }
+        
+        #footer {
+            background-color:   #5dd663;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        .footer-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">3R's</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <h1>EcoCycle: Reduce, Reuse, Recycle</h1>
+            <p>Join the EcoCycle Movement
+
+                Make a difference in your community by reducing waste, reusing resources, and recycling materials.</p>
+            <button id="learn-more-btn">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <h2>Our Mission</h2>
+            <p>At EcoCycle, we believe that every small action counts in the fight against climate change. Our mission is to educate, inspire, and empower individuals to make environmentally conscious choices in their daily lives.
+              These websites are also fast, efficient, and accessible, with features that cater to users with disabilities.
+              Additionally, they provide personalized experiences and are designed to be error-free, with minimal errors and easy recovery options.
+              Overall, web developers aim to create websites that are enjoyable, efficient, and effective, leading to increased user satisfaction and loyalty.</p>
+            <h2>How You Can Help</h2>
+            <li>Reduce your carbon footprint by using public transport or carpooling</li>
+            <li>Reuse bags, containers, and other household items</li>
+            <li>Recycle paper, plastic, glass, and metal waste</li>
+        </div>
+        <div class="feature">
+            <i>&#x1F4C8;</i>
+            <h3>Volunteer Opportunities</h3>
+            <p>Join our team of volunteers and help us organize community clean-up events, educational workshops, and fundraising campaigns.</p>
+        </div>
+        <div class="feature">
+            <i>&#x1F525;</i>
+            <h3>Donate</h3>
+            <p>Support our cause by making a donation to help us continue our work in promoting sustainability and environmental awareness.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Get Started Today!</h2>
+        <form id="sign-up-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <p>&copy; 2023 EcoCycle. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:reginesalva15@gmail.com">reginesalva15@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Add event listener to button in Hero Section
+        document.getElementById('learn-more-btn').addEventListener('click', function() {
+          alert('Learn more about web development!');
+        });
+      
+        document.getElementById('sign-up-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent default form submission
+          const name = document.getElementById('name').value;
+          const email = document.getElementById('email').value;
+          const password = document.getElementById('password').value;
+      
+          // TO DO: Send form data to server-side script for processing
+          console.log(`Name: ${name}, Email: ${email}, Password: ${password}`);
+          alert(`Thank you for signing up, ${name}!`);
+        });
+      </script>
+</body>
+</html>
